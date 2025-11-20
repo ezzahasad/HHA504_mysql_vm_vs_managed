@@ -22,9 +22,9 @@
 5. Completed VM creation with these settings.
 
 **Evidence Screenshots:**
-- ![vm_creation](screenshots/vm/vm_creation1.png)
-- ![firewall_allow](screenshots/vm/firewall_rule_allow_mysql6.png)
-- ![firewall_create](screenshots/vm/firewall_rule_created7.png)
+- ![vm_creation](../screenshots/vm/vm_creation1.png)
+- ![firewall_allow](../screenshots/vm/firewall_rule_allow_mysql6.png)
+- ![firewall_create](../screenshots/vm/firewall_rule_created7.png)
 
 ---
 
@@ -52,7 +52,7 @@ sudo systemctl status mysql
 The output confirmed that MySQL was running and the service was active.
 
 **Screenshot:**  
-![running_after](screenshots/vm/mysql_running_after_config4.png)
+![running_after](../screenshots/vm/mysql_running_after_config4.png)
 
 ---
 
@@ -74,7 +74,7 @@ FLUSH PRIVILEGES;
 ```
 
 **Screenshot:**  
-![sql_user](screenshots/vm/sqluser_created5.png)
+![sql_user](../screenshots/vm/sqluser_created5.png)
 
 ---
 
@@ -99,7 +99,7 @@ sudo systemctl restart mysql
 ```
 
 **Screenshot:**  
-![sql_active](screenshots/vm/sqlstatusactive_3.png)
+![sql_active](../screenshots/vm/sqlstatusactive_3.png)
 
 ---
 
@@ -128,7 +128,7 @@ SHOW TABLES;
 This confirmed that the database existed and MySQL was working as expected.
 
 **Screenshot:**  
-[mysql_table](screenshots/vm/vm_mysql_tables_and_data.png)
+[mysql_table](../screenshots/vm/vm_mysql_tables_and_data.png)
 
 ---
 
@@ -143,7 +143,7 @@ python scripts/vm_demo.py
 The script successfully connected to the VM MySQL server, created the `visits` table, inserted rows from a pandas DataFrame, and read the table back.
 
 **Screenshot:**  
-[successful_python](screenshots/vm/successful_python.png)
+[successful_python](../screenshots/vm/successful_python.png)
 
 ---
 
