@@ -1,0 +1,6 @@
+.env
+assignment_4/.env
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
