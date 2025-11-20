@@ -128,7 +128,7 @@ SHOW TABLES;
 This confirmed that the database existed and MySQL was working as expected.
 
 **Screenshot:**  
-[mysql_table](../screenshots/vm/vm_mysql_tables_and_data.png)
+![mysql_table](../screenshots/vm/vm_mysql_tables_and_data.png)
 
 ---
 
@@ -143,7 +143,7 @@ python scripts/vm_demo.py
 The script successfully connected to the VM MySQL server, created the `visits` table, inserted rows from a pandas DataFrame, and read the table back.
 
 **Screenshot:**  
-[successful_python](../screenshots/vm/successful_python.png)
+![successful_python](../screenshots/vm/successful_python.png)
 
 ---
 

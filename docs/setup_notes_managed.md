@@ -24,10 +24,10 @@
 6. Created the instance and waited for initialization.
 
 **Evidence Screenshots:**
-![mysql_managed_creation](screenshots/managed/mysql-managed-demo1.png)
-- ![database_sql](screenshots/managed/database_sql2.png)
-- ![users_accountsql](screenshots/managed/users_accountsql3.png)
-- ![networking_sql](screenshots/managed/networking_sql4.png)
+![mysql_managed_creation](../screenshots/managed/mysql-managed-demo1.png)
+- ![database_sql](../screenshots/managed/database_sql2.png)
+- ![users_accountsql](../screenshots/managed/users_accountsql3.png)
+- ![networking_sql](../screenshots/managed/networking_sql4.png)
 
 ---
 
@@ -43,8 +43,8 @@ Inside the Cloud SQL dashboard:
    - Name: `class_db_ezzahai`
 
 **Evidence Screenshots:**
-- ![users_account](screenshots/managed/users_accountsql3.png)
-- ![managed_database](screenshots/managed/mysql-managed-demo1.png)
+- ![users_account](../screenshots/managed/users_accountsql3.png)
+- ![managed_database](../screenshots/managed/mysql-managed-demo1.png)
 
 ---
 
@@ -55,7 +55,7 @@ Inside the Cloud SQL dashboard:
 3. Copied the public IP address for SQLAlchemy.
 
 **Evidence Screenshot:**  
-- ![networking_sql](screenshots/managed/networking_sql4.png)
+- ![networking_sql](../screenshots/managed/networking_sql4.png)
 
 ---
 
@@ -73,7 +73,7 @@ Script actions:
 - Read back the table and printed row count
 
 **Evidence Screenshot:**  
--![query_results](screenshots/managed/query_results5.png)
+-![query_results](../screenshots/managed/query_results5.png)
 ---
 
 ## 5. Issues Encountered & Fixes
